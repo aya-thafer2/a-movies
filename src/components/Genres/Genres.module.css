@@ -1,0 +1,21 @@
+.genre{
+    display: inline-block;
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+    background-color: transparent !important;
+    cursor: pointer;
+    border: solid 1px rgb(255, 255, 255) !important;
+    transition: all 0.5s;
+}
+.genre:hover{
+    background-color: #b10000 !important;
+    border-color:  #b10000 !important;
+}
+.genre:active{
+    background-color: #ff7070 !important;
+    border-color:  #ff7070 !important;
+}
+.clicked{
+    background-color: #ec0000 !important;
+    border-color:  #ec0000 !important;
+}

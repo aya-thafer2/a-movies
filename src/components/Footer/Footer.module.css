@@ -1,0 +1,108 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: normal;
+}
+a {
+    transition: 0.3s all ease;
+    text-decoration: none !important;
+}
+a:hover, a:focus {
+    text-decoration: none !important;
+    outline: none !important;
+}
+h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+.img, .blog-img, .user-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.ftcoFooterSocial li {
+    list-style: none;
+    margin: 0 10px 0 0;
+    display: inline-block;
+}
+.ftcoFooterSocial li a {
+    height: 40px;
+    width: 40px;
+    display: block;
+    background: rgba(0, 0, 0, );
+    border-radius: 50%;
+    position: relative;
+}
+.ftcoFooterSocial li a i {
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.ftcoFooterSocial li a:hover {
+    color: #fff !important;
+}
+.form-control {
+    height: 52px;
+    background: #fff;
+    color: #000 0;
+    font-size: 18px;
+    border-radius: 0px;
+    box-shadow: none;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+.form-control:focus, .form-control:active {
+    outline: none !important;
+    box-shadow: none;
+}
+textarea.form-control {
+    height: inherit !important;
+}
+.ftco-section {
+    padding: 12em 0;
+}
+.ftco-section h2 {
+    margin-bottom: 0;
+}
+footer {
+    padding: 7em 0;
+}
+
+footer a {
+    color: white;
+}
+footer p {
+    color: rgba(255, 255, 255, .3);
+}
+footer .footerHeading {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+footer .footerHeading .logo {
+    color: #fff;
+}
+footer .menu {
+    margin-bottom: 30px;
+}
+footer .menu a {
+    color: rgba(255, 255, 255, .6);
+    margin: 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+footer .menu a:hover{
+    color: red !important;
+}
+footer .ftcoFooterSocial li a:hover {
+    color: red !important;
+    background: white;
+}
+footer .ftcoFooterSocial li a {
+    background: transparent;
+    border: 1px solid white !important;
+}

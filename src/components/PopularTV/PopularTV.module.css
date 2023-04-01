@@ -1,0 +1,27 @@
+h1{
+    position: relative;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+h1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    transition: width 0.5s ease;
+    height: 0.5px;
+    background-color: #ff0000;
+}
+.searchCont i{
+    color: rgb(198, 198, 198);
+    cursor: pointer;
+}
+.show{
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.show:hover{
+    transform: scale(1.05) !important;
+}

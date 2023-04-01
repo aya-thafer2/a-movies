@@ -1,0 +1,30 @@
+/* nav{
+    box-shadow: rgba(255, 255, 255, 0.2) -1px -12px 20px 0px;
+} */
+
+nav a{
+    color: #fff !important;
+}
+li {
+    padding: 5px 0;
+    font-weight: 700;
+    position: relative;
+
+}
+li::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    transition: width 0.5s ease;
+    height: 2px;
+    background-color: #ff0000;
+}
+li:hover::after {
+    width: 100%;
+}
+
+
+
